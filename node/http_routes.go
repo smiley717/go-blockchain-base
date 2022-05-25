@@ -136,6 +136,5 @@ func listPeersHandler(w http.ResponseWriter, r *http.Request, node *Node) {
 }
 
 func getCurrentBlock(w http.ResponseWriter, r *http.Request, node *Node) {
-	res := node.state.LatestBlock()
-	writeRes(w, res)
+	writeRes(w, node.state.LatestBlock())
 }
