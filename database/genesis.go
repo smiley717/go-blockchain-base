@@ -10,7 +10,7 @@ var genesisJson = `
 	"genesis_time": "2022-05-24T00:00:00.000000000Z",
 	"chain_id": "aeldra",
 	"balances": {
-	  "eshwar": 1000000,
+	  "eshwar": 250000,
 	  "rajib": 250000,
 	  "ariel": 250000,
 	  "davit": 250000
