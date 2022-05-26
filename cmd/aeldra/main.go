@@ -15,7 +15,7 @@ const flagPort = "port"
 func main() {
 	var aeldraCmd = &cobra.Command{
 		Use:   "aeldra",
-		Short: "The Blockchain Bar CLI",
+		Short: "Aeldra CLI",
 		Run: func(cmd *cobra.Command, args []string) {
 		},
 	}
